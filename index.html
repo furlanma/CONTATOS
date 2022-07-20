@@ -16,14 +16,16 @@
             margin-top: 50px;
             margin-bottom: 50px;
             font-family: 'Hubballi', cursive;
-            text-transform: uppercase;
+            
         }
         #nameAndTitle{
             background-color:white;
-            width: 400px;
-            font-family: 'Hubballi', cursive;
+            width: 500px;
             margin: 0 auto;
             text-align: center;
+        }
+        #nameAndTitle, h1, h2{
+            margin: 0;
         }
         h1, h2, h3 {
             text-transform: uppercase;
@@ -35,6 +37,29 @@
             width: 30px;
             color: rgb(231, 208, 179);
         }
+
+        #container {
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-column-gap: 20px;
+
+        }
+        #siderbar, #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+        }
+        .card h3 {
+            font-family: 'Hubballi', cursive;
+        }
+        .card {
+            font-family: Montserrat;
+            border: 1px solid black ;
+            border-radius:  15px;
+            padding: 20px;
+        }
+    
     </style>
 </head>
 <body>
